@@ -16,6 +16,7 @@
   <img src="https://img.shields.io/badge/Swift-5.0-orange?logo=swift" alt="Swift">
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
   <img src="https://img.shields.io/badge/Platform-Apple_Silicon_%7C_Intel-lightgrey" alt="Platform">
+  <a href="https://tsingke.github.io/AppUnlocker"><img src="https://img.shields.io/badge/Website-tsingke.github.io/AppUnlocker-purple?logo=github" alt="Website"></a>
 </p>
 
 <br>

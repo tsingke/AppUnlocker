@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188E2C7ECA504C9DB9CC1FEE /* AppUnlockerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4996478509B40CE84043AE9 /* AppUnlockerApp.swift */; };
+		BC54CFAB7A554E69AD1A2B9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37CD874687C4C6183D08938 /* ContentView.swift */; };
+		235074C196564B8AB234B5EB /* AppItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E9D40E864E4A49B31C886F /* AppItem.swift */; };
+		0A4008FA787945A38C4C202E /* AppUnlockerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495503E77FE467FA49D2FAA /* AppUnlockerViewModel.swift */; };
+		8EC19624452F4BF5BF8CB760 /* DropZoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6E5766FB624CE1A87755E2 /* DropZoneView.swift */; };
+		E8D64D66E9B64DF4A721DAB8 /* HistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79A1434BF5E47C48A772FAD /* HistoryRowView.swift */; };
+		1C62006CAC614257B6DDAE45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C3BAF74EEF405F8CF8D61B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06B62FCE15BE4D4785CD5EE8 /* AppUnlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppUnlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4996478509B40CE84043AE9 /* AppUnlockerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUnlockerApp.swift; sourceTree = "<group>"; };
+		D37CD874687C4C6183D08938 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0E9D40E864E4A49B31C886F /* AppItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppItem.swift; sourceTree = "<group>"; };
+		6495503E77FE467FA49D2FAA /* AppUnlockerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUnlockerViewModel.swift; sourceTree = "<group>"; };
+		FE6E5766FB624CE1A87755E2 /* DropZoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropZoneView.swift; sourceTree = "<group>"; };
+		B79A1434BF5E47C48A772FAD /* HistoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowView.swift; sourceTree = "<group>"; };
+		26C3BAF74EEF405F8CF8D61B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		814698E7185940559EECD1AC /* AppUnlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppUnlocker.entitlements; sourceTree = "<group>"; };
+		7C9D8B81FC274252A45DFA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B6EEDCB45314C38B000AEE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88190BB5F5BF4419819542CF = {
+			isa = PBXGroup;
+			children = (
+				5F468CE79E444E80A9A4358B /* AppUnlocker */,
+				397A58EEEB074C7189A40C5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F468CE79E444E80A9A4358B /* AppUnlocker */ = {
+			isa = PBXGroup;
+			children = (
+				F4996478509B40CE84043AE9 /* AppUnlockerApp.swift */,
+				D37CD874687C4C6183D08938 /* ContentView.swift */,
+				A0E9D40E864E4A49B31C886F /* AppItem.swift */,
+				6495503E77FE467FA49D2FAA /* AppUnlockerViewModel.swift */,
+				FE6E5766FB624CE1A87755E2 /* DropZoneView.swift */,
+				B79A1434BF5E47C48A772FAD /* HistoryRowView.swift */,
+				26C3BAF74EEF405F8CF8D61B /* Assets.xcassets */,
+				814698E7185940559EECD1AC /* AppUnlocker.entitlements */,
+				7C9D8B81FC274252A45DFA41 /* Info.plist */,
+			);
+			path = AppUnlocker;
+			sourceTree = "<group>";
+		};
+		397A58EEEB074C7189A40C5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06B62FCE15BE4D4785CD5EE8 /* AppUnlocker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EF76CCBB8134F9C8765B7FD /* AppUnlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90C89ECD83E245518EFCF8ED /* Build configuration list for PBXNativeTarget "AppUnlocker" */;
+			buildPhases = (
+				9E573E4F99824BABB6CECDBC /* Sources */,
+				6B6EEDCB45314C38B000AEE4 /* Frameworks */,
+				5B1EA38E342B44EA8FD7F6E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppUnlocker;
+			productName = AppUnlocker;
+			productReference = 06B62FCE15BE4D4785CD5EE8 /* AppUnlocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9191B284AB41490CA539F116 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4EF76CCBB8134F9C8765B7FD = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 84F4C441DEAE4857B549B738 /* Build configuration list for PBXProject "AppUnlocker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh-Hans;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = 88190BB5F5BF4419819542CF;
+			productRefGroup = 397A58EEEB074C7189A40C5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EF76CCBB8134F9C8765B7FD /* AppUnlocker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B1EA38E342B44EA8FD7F6E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C62006CAC614257B6DDAE45 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E573E4F99824BABB6CECDBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188E2C7ECA504C9DB9CC1FEE /* AppUnlockerApp.swift in Sources */,
+				BC54CFAB7A554E69AD1A2B9D /* ContentView.swift in Sources */,
+				235074C196564B8AB234B5EB /* AppItem.swift in Sources */,
+				0A4008FA787945A38C4C202E /* AppUnlockerViewModel.swift in Sources */,
+				8EC19624452F4BF5BF8CB760 /* DropZoneView.swift in Sources */,
+				E8D64D66E9B64DF4A721DAB8 /* HistoryRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C5C906D875314A74B5AC6482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf" ;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			};
+			name = Debug;
+		};
+		76C4A91928FD41FAA81E0453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+
+			};
+			name = Release;
+		};
+		1FEDF4750BCC4E50A7CE4B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSET_CATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppUnlocker/AppUnlocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AppUnlocker/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appunlocker.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79C11858C0F24D65ABBFF706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSET_CATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppUnlocker/AppUnlocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AppUnlocker/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appunlocker.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F4C441DEAE4857B549B738 /* Build configuration list for PBXProject "AppUnlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C906D875314A74B5AC6482 /* Debug */,
+				76C4A91928FD41FAA81E0453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90C89ECD83E245518EFCF8ED /* Build configuration list for PBXNativeTarget "AppUnlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEDF4750BCC4E50A7CE4B1C /* Debug */,
+				79C11858C0F24D65ABBFF706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 9191B284AB41490CA539F116 /* Project object */;
+}

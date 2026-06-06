@@ -37,6 +37,7 @@
 
 <br>
 
+
 ---
 
 <p align="center">
@@ -57,6 +58,7 @@
 | 🇨🇳 **中文** | [README.zh.md](README.zh.md) — 完整中文文档 |
 | 🌐 **Website** | [tsingke.github.io/AppUnlocker](https://tsingke.github.io/AppUnlocker) |
 | 📥 **Download** | [AppUnlocker.dmg](https://github.com/tsingke/AppUnlocker/releases/download/v1.0.0/AppUnlocker.dmg) |
+|**Download Web Page**| [https://tsingke.github.io/AppUnlocker/](https://tsingke.github.io/AppUnlocker/)|
 
 <br>
 
